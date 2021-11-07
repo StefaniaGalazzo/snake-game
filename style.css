@@ -1,0 +1,43 @@
+/*We ​make a 400 x 400 white rectangle
+ with a black border, which will cover the entire canvas starting from the top left corner (0, 0) */
+
+canvas { 
+    background-color: #fff;
+    border: 3px solid rgb(154, 255, 250);
+    height: 400px;
+    width: 400px;
+    top: 0;
+    left: 0;
+    margin: 50px auto;
+}
+
+#snakeboard {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+  /* style */
+
+body {
+    background-color: rgb(27, 27, 27);
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 100;
+    color: rgb(154, 255, 250);
+}
+
+header {
+    text-align: center;
+}
+
+button {
+    margin: 10px auto;
+    background-color: rgb(27, 27, 27);
+    border-radius: 20px;
+    border: 1px solid  rgb(154, 255, 250);
+    color:  rgb(154, 255, 250);
+    padding: 10px;
+}
+
